@@ -36,42 +36,42 @@ namespace Visualization.EyeSee
 	 */
 	public class EyeSee : CoreTechnique
 	{
-		public const bool 				ROLL = false;
-		public const bool 				PITCH = true;
-		public const bool 				YAW = true;
+		public const bool 		ROLL = false;
+		public const bool 		PITCH = true;
+		public const bool 		YAW = true;
 
 		public const EnumCompression 	COMPRESS_X = EnumCompression.SQUARE_ROOT;
 		public const EnumCompression	COMPRESS_Y = EnumCompression.SQUARE_ROOT;
 
-		public const EnumFOV 			INNER_FOV_REPRESENTATION = EnumFOV.VIEW;
-		public static CoreFOV			INNER_FOV_REPRESENTATION_CUSTOM = new CoreFOV (true, new Vector2 (180, 90));
-		public const float 				INNER_LINE_WIDTH = 0.06f;
-		public static Color 			INNER_LINE_COLOR = Color.white;
+		public const EnumFOV 		INNER_FOV_REPRESENTATION = EnumFOV.VIEW;
+		public static CoreFOV		INNER_FOV_REPRESENTATION_CUSTOM = new CoreFOV (true, new Vector2 (180, 90));
+		public const float 		INNER_LINE_WIDTH = 0.06f;
+		public static Color 		INNER_LINE_COLOR = Color.white;
 
-		public static Vector2			OUTER_SIZE = new Vector2 (360, 180);
-		public const EnumFOV 			OUTER_FOV = EnumFOV.SCREEN;
+		public static Vector2		OUTER_SIZE = new Vector2 (360, 180);
+		public const EnumFOV 		OUTER_FOV = EnumFOV.SCREEN;
 		public static CoreFOV 		OUTER_FOV_CUSTOM = new CoreFOV(false, new Vector2(10, 10));
-		public const float 				OUTER_LINE_WIDTH = 0.06f;
-		public static Color 			OUTER_LINE_COLOR = Color.white;
+		public const float 		OUTER_LINE_WIDTH = 0.06f;
+		public static Color 		OUTER_LINE_COLOR = Color.white;
 
-		public const bool 				ZEROLINE_VERTICAL = true;
-		public const bool 				ZEROLINE_HORIZONTAL = true;
-		public const float 				ZEROLINE_WIDTH = 0.06f;
-		public static Color 			ZEROLINE_COLOR = Color.white;
+		public const bool 		ZEROLINE_VERTICAL = true;
+		public const bool 		ZEROLINE_HORIZONTAL = true;
+		public const float 		ZEROLINE_WIDTH = 0.06f;
+		public static Color 		ZEROLINE_COLOR = Color.white;
 
-		public const int 					HELPLINE_VERTICAL = 45;
-		public const int					HELPLINE_HORIZONTAL = 45;
-		public const float 				HELPLINE_WIDTH = 0.06f;
-		public static Color 			HELPLINE_COLOR = Color.white;
+		public const int 		HELPLINE_VERTICAL = 45;
+		public const int		HELPLINE_HORIZONTAL = 45;
+		public const float 		HELPLINE_WIDTH = 0.06f;
+		public static Color 		HELPLINE_COLOR = Color.white;
 
-		public const float 				PROXY_SIZE = 5f;
+		public const float 		PROXY_SIZE = 5f;
 
-		public const bool 				DISTANCE_COLOR = true;
-		public static Color 			DISTANCE_MIN_COLOR = Color.red;
-		public static Color 			DISTANCE_MAX_COLOR = Color.blue;
-		public const bool 				DISTANCE_RESIZE = false;
-		public const float 				DISTANCE_MIN_RESIZE = 1f;
-		public const float 				DISTANCE_MAX_RESIZE = 10f;
+		public const bool 		DISTANCE_COLOR = true;
+		public static Color 		DISTANCE_MIN_COLOR = Color.red;
+		public static Color 		DISTANCE_MAX_COLOR = Color.blue;
+		public const bool 		DISTANCE_RESIZE = false;
+		public const float 		DISTANCE_MIN_RESIZE = 1f;
+		public const float 		DISTANCE_MAX_RESIZE = 10f;
 
 		public override Type GetArea()
 		{
